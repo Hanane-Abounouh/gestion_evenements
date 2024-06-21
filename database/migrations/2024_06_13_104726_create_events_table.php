@@ -21,6 +21,7 @@ class CreateEventsTable extends Migration
             $table->time('heure');
             $table->string('lieu');
             $table->string('prix');
+            $table->string('image')->nullable();  // Champ pour l'image
             $table->unsignedBigInteger('id_user');
             $table->timestamps();
 

@@ -13,7 +13,7 @@
         <div class="-mx-4 flex flex-wrap justify-between">
           <div class="px-4 my-4 w-full xl:w-1/3">
             <a href="/" class="block w-56 mb-10 text-2xl ">
-             getion-evenements
+            EventPlanner
             </a>
            
             <p class="text-justify mt-5  ">
@@ -76,7 +76,7 @@
         <div class="container mx-auto px-40  ">
           <div class="-mx-4 flex flex-wrap  justify-center ">
             <div class="px-4 w-full text-center sm:w-auto sm:text-left">
-              Copyright © 2024  getion-evenements
+              Copyright © 2024  EventPlanner
             </div>
             <div class="px-4 w-full text-center sm:w-auto sm:text-left">
               Made with ❤️ by Hanane Abounouh  .

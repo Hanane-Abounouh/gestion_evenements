@@ -19,8 +19,8 @@
                             <li class="mr-20">
                                 <a class="text-gray-50 hover:opacity-80" href="{{ url('/') }}">
                                     <div>
-                                        <span class="text-xl font-bold">Gorkha</span>
-                                        <span class="text-xl font-bold text-yellow-600">Job</span>
+                                        <span class="text-xl font-bold">Event-</span>
+                                        <span class="text-xl font-bold text-yellow-600">Planner</span>
                                     </div>
                                 </a>
                             </li>
@@ -35,7 +35,7 @@
                                 <a class="cursor-pointer text-sm font-medium text-gray-50 hover:text-gray-50/80">Contact</a>
                             </li>
                             <li class="hidden md:block">
-                                <a class="cursor-pointer text-sm font-medium text-gray-50 hover:text-gray-50/80">Make a Resume</a>
+                                <a class="cursor-pointer text-sm font-medium text-gray-50 hover:text-gray-50/80" href="{{ url('/events/create') }}">CreateEvent</a>
                             </li>
                         </ul>
                     </li>

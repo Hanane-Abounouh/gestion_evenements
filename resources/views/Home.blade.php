@@ -19,7 +19,7 @@
         <div class="max-w-sm w-full bg-white shadow-lg rounded-2xl p-6">
             <div class="flex flex-col">
                 <div class="relative h-48 w-full mb-3 mt-2 mr-2">
-                    <img src="{{ $event->image }}" alt="Event Image" class="w-full h-full object-cover rounded-xl">
+                <img src="{{ asset('storage/' . $event->image) }}" alt="Event Image" class="w-full h-full object-cover rounded-xl">
                     <div class="absolute top-2 left-2 bg-white p-2 rounded-br-xl">
                         <div class="text-center">
                             <div class="text-lg font-bold">{{ \Carbon\Carbon::parse($event->date)->format('d') }}</div>
