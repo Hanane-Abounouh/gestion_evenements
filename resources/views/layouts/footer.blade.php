@@ -7,9 +7,9 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-<footer class="w-full">
+<footer class="w-full mt-20">
     <div class="bg-gray-900   text-white">
-      <div class="container px-40 mx-auto">
+      <div class="container px-48 mx-auto">
         <div class="-mx-4 flex flex-wrap justify-between">
           <div class="px-4 my-4 w-full xl:w-1/3">
             <a href="/" class="block w-56 mb-10 text-2xl ">
@@ -30,10 +30,10 @@
               <h1 class="text-white text-xl border-yellow-600 pb-4 mb-4 border-b-4">Home</h1>
             </div>
             <ul class="leading-8 mt-5">
-              <li><a href="#" >About Us</a></li>
-              <li><a href="#" >Category</a></li>
+              <li><a href="/about" >About Us</a></li>
+            
               <li><a href="#" >Login</a></li>
-              <li><a href="#" >Profil</a></li>
+              <li><a href="{{ route('profile') }}" >Profil</a></li>
               
             </ul>
           </div>
